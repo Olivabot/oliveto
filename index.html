@@ -4,19 +4,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Olivabot - Agricoltura di precisione per uliveti</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Benvenuti su Olivabot</h1>
-        <p>Olivabot utilizza droni e tecnologia avanzata per supportare gli agricoltori nella gestione sostenibile degli uliveti. 
-            Offriamo soluzioni di agricoltura di precisione per aumentare la resa, migliorare la salute degli alberi, 
-            promuovere la biodiversità e risparmiare sui costi.
-        </p>
-        <p>Grazie alla mappatura 3D e all'analisi multispettrale, aiutiamo gli agricoltori a rilevare precocemente segni di stress, 
-            ottimizzare la potatura e gestire in modo efficiente le risorse idriche e nutritive. 
-            Identifichiamo le aree che necessitano di fertilizzante, evitando trattamenti inutili, 
-            e promuoviamo la consociazione di piante come alternativa naturale a pesticidi e fertilizzanti chimici.
-        </p>
+        <div class="container mt-5">
+            <h1>Benvenuti su Olivabot</h1>
+            <p>Olivabot utilizza droni e tecnologia avanzata per supportare gli agricoltori nella gestione sostenibile degli uliveti.</p>
+            
+            <h2>Uliveto 1: Analisi e Gestione</h2>
+            <p>In questo caso d'uso, abbiamo utilizzato i nostri droni per mappare l'uliveto, eseguire una ricostruzione 3D e condurre un'analisi multispettrale per fornire raccomandazioni precise agli agricoltori.</p>
+            
+            <h3>1. Mappa di Google Maps</h3>
+            <p>La mappa iniziale dell'uliveto è stata ottenuta tramite Google Maps, offrendo una panoramica dell'area agricola.</p>
+            <img src="images/google-maps.jpg" class="img-fluid mt-3" alt="Mappa di Google Maps">
+            
+            <h3 class="mt-5">2. Riprese dal Drone</h3>
+            <p>Il drone ha catturato immagini dettagliate dell'uliveto, fornendo dati essenziali per la nostra analisi agricola.</p>
+            <img src="images/drone-footage.gif" class="img-fluid mt-3" alt="Riprese dal drone">
+            
+            <h3 class="mt-5">3. Ricostruzione 3D</h3>
+            <p>La mappatura 3D ha permesso una visualizzazione accurata della struttura dell'uliveto, facilitando le decisioni relative alla potatura e all'ottimizzazione della crescita degli alberi.</p>
+            <img src="images/3d-map.jpg" class="img-fluid mt-3" alt="Ricostruzione 3D">
+            
+            <h3 class="mt-5">4. Analisi Multispettrale</h3>
+            <p>L'analisi multispettrale ha individuato aree con potenziali problemi di salute degli alberi e ha fornito suggerimenti per l'uso mirato di fertilizzanti.</p>
+            <img src="images/multispectral-analysis.jpg" class="img-fluid mt-3" alt="Analisi multispettrale">
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="app.js"></script>
     </body>
 </html>
